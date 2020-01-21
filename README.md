@@ -12,8 +12,6 @@ Below I provide the data source & a brief description of packages used in this a
 
 Data source: <https://www.kaggle.com/START-UMD/gtd>
 
-pacman - easy installation / loading of packages
-
 tidyverse - data manipulation toolkit
 
 ggplot2 - plotting toolkit
