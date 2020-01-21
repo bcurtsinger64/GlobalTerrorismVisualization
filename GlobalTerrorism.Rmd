@@ -17,8 +17,6 @@ Below I provide the data source & a brief description of packages used in this a
 
 Data source: https://www.kaggle.com/START-UMD/gtd
 
-pacman - easy installation / loading of packages
-
 tidyverse - data manipulation toolkit
 
 ggplot2 - plotting toolkit
@@ -26,10 +24,9 @@ ggplot2 - plotting toolkit
 ggmap - mapping toolkit that integrates with ggplot2
 
 ```{r Intro & Data Prep, echo = F, message=F}
-if(!require(pacman)) install.packages('pacman')
-p_load(tidyverse)
-p_load(ggplot2)
-p_load(ggmap)
+library(tidyverse)
+library(ggplot2)
+library(ggmap)
 gtd <- read_csv('gtd.csv')
 
 #Subset Data
